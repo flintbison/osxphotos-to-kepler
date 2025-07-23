@@ -1,7 +1,8 @@
-osxphotos>=0.60.0
-tqdm>=4.65.0
-yaspin>=2.5.0
-pandas>=2.0.0
-keplergl>=0.3.2
-# Note: Install exiftool separately (e.g., `brew install exiftool` on macOS)
-# Note: Install python >= 3.13.5
+osxphotos>=0.72.1
+tqdm>=4.67.1
+yaspin>=3.1.0
+numpy>=2.3.1
+pandas>=2.3.1
+# Note: Install these separately first (e.g., `brew install exiftool` on macOS)
+# python >= 3.13.5
+# exiftool>=11.93
