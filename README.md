@@ -1,5 +1,5 @@
 ## About osxphotos-to-kepler
-Script to extract metadata directly from the database used by the OSX Photos app so it can be visualised spatially and temporally in Kepler.gl
+Script to extract photos metadata directly from the database used by the OSX Photos app so they can be visualised spatially and temporally in Kepler.gl
 
 <img src="kepler-preview.jpg">
 
