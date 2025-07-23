@@ -15,7 +15,7 @@ parser.add_argument('--verbose', action='store_true', help='Extract all availabl
 args = parser.parse_args()
 
 # Output file path
-output_file = 'photo_metadata.csv'
+output_file = 'photo-metadata.csv'
 
 # Define common EXIF fields for verbose mode (add more as needed)
 exif_fields = [
