@@ -28,7 +28,7 @@ Default mode outputs these metadata properties:
 `Latitude`
 `Longitude`
 
-## Verbose use (slow)
+## Verbose output (slow)
 
 Adding the `--verbose` flag will extract many more metadata properties.
 
