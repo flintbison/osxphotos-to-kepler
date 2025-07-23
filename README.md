@@ -14,6 +14,7 @@ pip3 install -r requirements.txt
 python3 brew install exiftool 
 ```
 4. Run the script as described below
+5. Use the outputted, formatted metadata file in <a href="https://github.com/keplergl/kepler.gl">kepler.gl</a> to visualise.
 
 ## Default usage
 
