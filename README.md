@@ -13,8 +13,7 @@ pip3 install -r requirements.txt
 ```sh
 python3 brew install exiftool 
 ```
-4. Run the script as described below:
-
+4. Run the script as described below
 
 ## Default usage
 
