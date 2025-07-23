@@ -7,7 +7,7 @@ Script to extract metadata directly from the database used by the OSX Photos app
 ```sh
 pip3 install -r requirements.txt.
 ```
-3. Install exiftool: brew install exiftool.
+3. Install exiftool: brew install exiftool
 ```sh
 python3 brew install exiftool
 ```
