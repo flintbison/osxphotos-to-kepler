@@ -1,12 +1,12 @@
 ## About osxphotos-to-kepler
-Script to extract metadata directly from the database used by the OSX Photos app   so it can be visualised spatially and temporally in Kepler.gl
+Script to extract metadata directly from the database used by the OSX Photos app so it can be visualised spatially and temporally in Kepler.gl
 
-## Usage
+
+## Default usage
+
 ```sh
-python3 osxphotos-to-kepler.py "~/Pictures/Photos Library.photoslibrary"
+python3 osxphotos-to-kepler.py "path to photos library"
 ```
-
-## Default mode
 
 Default mode outputs these metadata properties:
 `Filename`  
@@ -14,10 +14,12 @@ Default mode outputs these metadata properties:
 `Latitude`
 `Longitude`
 
-## Verbose mode (warning   very slow)
+## Verbose use (slow)
+
+Adding the `--verbose` flag will extract many more metadata properties.
 
 ```sh
-python3 osxphotos-to-kepler.py "~/Pictures/Photos Library.photoslibrary" --verbose
+python3 osxphotos-to-kepler.py "path to photos library" --verbose
 ```
 Verbose mode outputs these metadata properties:
 `UUID`   `Filename`   `OriginalFilename`   `Path`   `PathEdited`   `FileSize`  `FileFormat`   `MediaType`   `DateTime`   `DateAdded`   `DateModified`   `DateTrashed`   `TimezoneOffset`   `Latitude`   `Longitude`   `PlaceName`   `PlaceAddress`   `PlaceCountryCode`   `Title`   `Description`  `Keywords`   `Persons`   `Albums`   `Favorite`   `Hidden`   `Shared`   `Burst`   `BurstSelected`   `Live`   `Portrait`   `HDR`   `HasAdjustments`   `ScoreOverall`   `ScoreCuration`   `ScorePromotion`   `ScoreHighlight`   `ScoreAesthetic`   `ScoreContent`   `Moment`   `OriginalWidth`   `OriginalHeight`   `Width`   `Height`   `Orientation`   `IsCloud`   `InCloud`   `CloudStatus`   `ExternalEdit`   `Project`   `MetadataVersion`
