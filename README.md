@@ -1,6 +1,18 @@
 ## About osxphotos-to-kepler
 Script to extract metadata directly from the database used by the OSX Photos app so it can be visualised spatially and temporally in Kepler.gl
 
+## Installation
+1. Clone or download this project.
+2. Install dependencies:
+```sh
+pip3 install -r requirements.txt.
+```
+3. Install exiftool: brew install exiftool.
+```sh
+python3 brew install exiftool
+```
+4. Run the scripts as described below:
+
 
 ## Default usage
 
